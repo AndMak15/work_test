@@ -1,0 +1,20 @@
+{
+    "name": "makalish/work",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "makalish",
+            "email": "makalish.andreas93@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-zlib": "*",
+        "ext-memcache": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": ""
+        }
+    }
+}
